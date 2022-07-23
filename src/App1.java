@@ -1,4 +1,4 @@
-public class App1 extends Apps {
+public class App1 extends Apps implements SupportApp{
 
     private int zahl;
     private String name;
@@ -18,9 +18,26 @@ public class App1 extends Apps {
         App1 tiktok = new App1(2, "Martin", 20, 1);
 
         System.out.println(tiktok);
-        System.out.println(tiktok.name);
+        System.out.println(tiktok.name + " "+ anzahlReifen);
         tiktok.land();
+
+
+        
        
+    }
+
+
+    @Override
+    public int anzahlReifen() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+
+    @Override
+    public void animalSound() {
+        // TODO Auto-generated method stub
+        
     }
 
 
