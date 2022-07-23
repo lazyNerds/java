@@ -1,0 +1,29 @@
+public class App1 extends Apps {
+
+    private int zahl;
+    private String name;
+    private double preis;
+    private float nummer;
+
+    public App1(int zahl, String name, double preis, float nummer){
+        this.zahl = zahl;
+        this.name = name;
+        this.preis = preis;
+        this.nummer = nummer;
+    }
+
+
+    public static void main(String[] args) {
+        
+        App1 tiktok = new App1(2, "Martin", 20, 1);
+
+        System.out.println(tiktok);
+        System.out.println(tiktok.name);
+        tiktok.land();
+       
+    }
+
+
+   
+    
+}
